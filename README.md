@@ -9,8 +9,10 @@ Just to have some fun :)
 I use "yuicompressor" since years with good results.
 
 |        | yuicompressor | tr.py.minimize_js + yuicompressor |
+|--- | :-- | :--|
 | min.js | 21.82 Kio     | 12.19 Kio (45% smaller)           |
 | gzip   | 5.27 Kio      | 4.45 Kio (16% smaller)            |
+
 
 ## Example
 cmd file I use to minimize tr.markdown-fs
