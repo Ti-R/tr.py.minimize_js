@@ -19,7 +19,7 @@ cmd file I use to minimize tr.markdown-fs
 
 ~~~cmd
 REM 1) Rename all vars to small variable and excluded some VarName from renaming
-"tr.py.minimize_js.py" --js "tr.markdown-fs.js" --excludeVarName TR MarkdownFS Debug MarkdownFSGlobal toHtml
+"tr.py.minimize_js.py" --js "tr.markdown-fs.js" --excludeVarName TR MarkdownFS Debug MarkdownFSGlobal toHtml  mOptions Timing iFrameAllowed FilterCodes FilterHeadingSections
 
 REM 2) Call a "yuicompressor" for example
 CALL "compress.bat" "tr.markdown-fs.min.js"
