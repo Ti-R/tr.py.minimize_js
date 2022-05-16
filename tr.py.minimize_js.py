@@ -14,11 +14,9 @@
 
 # 
 
-from errno import EMSGSIZE
 import os
 import argparse
 import re
-from slimit import minify
 
 ###########	   TO SET	  ##############
 
